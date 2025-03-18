@@ -8,7 +8,7 @@ class Fixed
 private:
 
 	int					_fpNumber;
-	static const int	_fBits = 0;
+	static const int	_fBits = 8;
 
 public:
 
