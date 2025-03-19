@@ -19,7 +19,7 @@ Fixed::Fixed(const int integer)
 
 Fixed::Fixed(const float floating)
 {
-	this->setRawBits(static_cast<int>(std::roundf(floating * (1 << _fBits))));
+	this->setRawBits(static_cast<int>(floating * (1 << _fBits)));
 }
 
 Fixed::~Fixed()
