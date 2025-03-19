@@ -1,6 +1,6 @@
 #pragma once
 
-# include "Fixed.cpp"
+# include "Fixed.hpp"
 
 class Point
 {

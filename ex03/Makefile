@@ -13,9 +13,9 @@ RED		= \033[31;1m
 #---------- BASE ----------#
 
 # FILES 
-CPP_FILES = main.cpp \
+CPP_FILES = main.cpp bsp.cpp\
 
-CLASS_CPP_FILES =  Fixed.cpp\
+CLASS_CPP_FILES =  Fixed.cpp Point.cpp\
 #SRC_FILES = $(shell find $(SRC_DIR) -name '*.cpp')
 
 # DIRECTORIES 
@@ -42,7 +42,7 @@ $(CLASS_OBJ_DIR)%.o: $(CLASS_DIR)%.cpp
 #---------- FLAGS & COMPILATION ----------#
 
 CC = c++
-NAME = ex02
+NAME = ex03
 CFLAGS = -Wall -Werror -Wextra -std=c++98
 
 all: $(NAME)
